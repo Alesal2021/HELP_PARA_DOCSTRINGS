@@ -15,6 +15,6 @@ def fatorial(num):
     for i in range(1, num +1, 1):
         fat *= i
     return fat
-x = int(input('Digite um valor para calcular o fatorial', 0, 99999))
+x = valida_int('Digite um valor para calcular o fatorial', 0, 99999)
 print('{}! = {} '.format(x, fatorial(x)))
 help(fatorial())
