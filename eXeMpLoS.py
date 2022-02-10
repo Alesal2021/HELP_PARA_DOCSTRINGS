@@ -7,7 +7,7 @@ def soma(x = 0, y = 0, z = 0):
     :param z:Valor inteiros opcionais
     :return:A soma dos inteiros x,y,z
     """
-    res = x + y + z
+    return x + y + z
 
 #Programa Principal
 print(soma(2,3))
